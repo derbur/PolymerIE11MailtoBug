@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>IE Bug Test</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.24/webcomponents.js"></script>
+		<link href="https://polygit.org/components/polymer/polymer.html" rel="import">
+		<link href="https://polygit.org/components/paper-tabs/paper-tabs.html" rel="import">
+		<link href="https://polygit.org/components/paper-header-panel/paper-header-panel.html" rel="import">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<style type="text/css">
+		body {
+			font-family: 'Roboto', sans-serif;
+		}
+		paper-tabs{
+			background-color: #009688;
+		}
+		a {
+			margin-top: 40px;
+		}
+	</style>
+	</head>
+	<body>
+		<paper-header-panel class="flex">
+			<paper-toolbar>
+				<paper-tabs selected="0">
+					<paper-tab>One</paper-tab>
+					<paper-tab>Two</paper-tab>
+					<paper-tab>Three</paper-tab>
+				</paper-tabs>
+			</paper-toolbar>
+			<div>
+				<a href="mailto:ie11@notworking.com">ie11@notworking.com</a>				
+			</div>
+		</paper-header-panel>		
+	</body>
+</html>
